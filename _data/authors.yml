@@ -8,7 +8,7 @@ KuRoti:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Cognitive architecture를 개발하고자 하는 연구자 지망생. Strong AI와 관련한 주제를 모두 다룹니다!
+    Cognitive architecture를 개발하고자 하는 연구자 지망생. Strong AI와 관련한 주제는 모두 니다!
   # This photo will be used in the about section
   picture:
     src:             /assets/img/me.jpg
