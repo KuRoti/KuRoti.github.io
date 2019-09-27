@@ -7,6 +7,7 @@ title:               ABC LAB
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
 url:                 https://KuRoti.github.io
+logo:               /assets/imp/logo.png
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
@@ -27,7 +28,7 @@ author:
 
 # Fallback image and color
 image:               /assets/img/nap.jpg
-color:               '#cbc7ff'
+color:               '#4436ff'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:        "'Lato', 'Sans-serif'"
