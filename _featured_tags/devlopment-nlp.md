@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: ML
-slug: ml
-category: devlog
+title: Nlp
+slug: nlp
+category: devlopment
 menu: false
 order: 1
 ---
