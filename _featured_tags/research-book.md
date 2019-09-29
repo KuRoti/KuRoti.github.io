@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Book
 slug: book
-category: review
+category: research
 menu: false
 order: 1
 ---
