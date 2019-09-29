@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Nlp
 slug: nlp
-category: devlopment
+category: development
 menu: false
 order: 1
 ---
