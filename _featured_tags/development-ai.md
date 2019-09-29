@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: Ai
+title: AI
 slug: ai
 category: development
 menu: false
