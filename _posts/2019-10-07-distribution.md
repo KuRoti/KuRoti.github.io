@@ -8,7 +8,7 @@ layout: post
 
 # Probability Distribution
 
-\{:}
+\{toc:}
 
 이전 포스팅에서 random variable과 PMF에 대해 정리했습니다. 이번 포스팅에서는 많이 쓰이는 Bernoulli distribution, Binomial distribution과 같은 확률 분포에 대해 다루겠습니다. 
 
