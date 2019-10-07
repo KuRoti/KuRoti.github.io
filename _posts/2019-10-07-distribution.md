@@ -1,4 +1,3 @@
-```
 ---
 title: "확률분포"
 date: 2019-10-08 12:25:28 -0400
@@ -6,17 +5,14 @@ categories: math
 tags : probability
 layout: post
 ---
-```
-
-
 
 # Probability Distribution
 
-[TOC]
+{:toc}
 
 이전 포스팅에서 random variable과 PMF에 대해 정리했습니다. 이번 포스팅에서는 많이 쓰이는 Bernoulli distribution, Binomial distribution과 같은 확률 분포에 대해 다루겠습니다. 
 
-확률 분포 X에 대해  random variable A가 확률 분포 X를 따른다는 것은 $A\sim X(parameter)$로 표기하며, X에 매개변수를 대입하면(ex. p,n) A가 특정 값을 가질 확률을 계산할 수 있다.
+확률 분포 X에 대해  random variable A가 확률 분포 X를 따른다는 것은 $$A\sim X(parameter)$$로 표기하며, X에 매개변수를 대입하면(ex. p,n) A가 특정 값을 가질 확률을 계산할 수 있다.
 
 가장 기본이 되는 확률분포는 베르누이 분포로, 이 블로그에서 다루는 범위의 모든 확률분포는 베르누이 분포로 환원가능할정도로 기초적인 분포이다.
 
@@ -26,7 +22,7 @@ layout: post
 
 확률변수 $X$가 parameter $p$로 베르누이 분포를 따른다는 것은
 
-- $X_S=\{0,1\}$ 이고 $P(X=1)=p, P(X=0)=1-p$를 만족한다.
+- $$X_S=\{0,1\}$$ 이고 $$P(X=1)=p, P(X=0)=1-p$$를 만족한다.
 - $X\sim Bern(p)$로 표기한다.
 - 가능한 상태가 두 개뿐인 모든 확률변수는 베르누이 분포를 따른다.
 - '1'은 성공으로 간주, '0'은 실패로 간주한다.
@@ -41,7 +37,7 @@ layout: post
 
 사건 $A$의 *indicater random variable*은 $I_A$로 표기되며, $A$가 성공할 때는 1의 값을, 실패할 때는 0의 값을 갖는 함수이다.
 
-수식으로 나타내면 $I_A(s)=\begin{cases}\ 1\ \ \ s\in A\\\ 0\ \ \ s\notin A\end{cases}$ 로 표기되며, $p=P(A)$일 때 $I_A\sim Bern(p)$를 만족한다. 
+수식으로 나타내면 $$I_A(s)=\begin{cases}\ 1\ \ \ s\in A\\\ 0\ \ \ s\notin A\end{cases}$$ 로 표기되며, $p=P(A)$일 때 $I_A\sim Bern(p)$를 만족한다. 
 
 이 수식에서는 엄밀한 정의를 따라 사건 A 내의 시행 s에 대해 표기했지만, 통상적으로 $I(A)$로 표기한 경우에도 $A$사건이 발생하면 1의 값, 발생하지 않으면 0의 값을 갖는 확률변수입니다. 	
 
