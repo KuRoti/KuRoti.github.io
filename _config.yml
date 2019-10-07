@@ -78,6 +78,8 @@ paginate_path:       '/page-:num/'
 # Uncomment this line if want to disable the touch drawer on mobile
 # disable_drawer: true
 
+excerpt_separator: "\n\n"
+
 # -----------------------------------------------------------------------------
 #  Collections
 # -----------------------------------------------------------------------------
