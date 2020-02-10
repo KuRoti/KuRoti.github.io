@@ -8,7 +8,7 @@ layout: post
 
 이번 포스팅에서는 확률 분포에 대해 다루겠습니다. 
 
-## Probability Distribution
+ Probability Distribution
 
 이전 포스팅에서 random variable과 PMF에 대해 정리했습니다. 이번 포스팅에서는 많이 쓰이는 Bernoulli distribution, Binomial distribution과 같은 확률 분포에 대해 다루겠습니다. 
 
@@ -16,9 +16,9 @@ layout: post
 
 가장 기본이 되는 확률분포는 베르누이 분포로, 이 블로그에서 다루는 범위의 모든 확률분포는 베르누이 분포로 환원가능할정도로 기초적인 분포이다.
 
-## Bernoulli distribution
+ Bernoulli distribution
 
-### Definition
+ Definition
 
 확률변수 $$X$$가 parameter $$p$$로 베르누이 분포를 따른다는 것은
 
@@ -31,7 +31,7 @@ layout: post
 
 가장 단순한 만큼, 이 베르누이 분포에서 우리가 배울 여러 확률 분포 함수를 유도할 수 있으며, 확률과 관련된 많은 모델들을 접할 때 많이 듣게 될 용어이기도 하다.
 
-### Indicator Random Variable
+ Indicator Random Variable
 
 한편 베르누이 분포를 논할 때 Indicator Random Variable의 개념을 같이 짚고 넘어가는 것이 좋은데, 이 개념은 많이 언급되면서도 쉬운 개념이다.
 
@@ -41,7 +41,7 @@ layout: post
 
 이 수식에서는 엄밀한 정의를 따라 사건 A 내의 시행 s에 대해 표기했지만, 통상적으로 $$I(A)$$로 표기한 경우에도 $$A$$사건이 발생하면 1의 값, 발생하지 않으면 0의 값을 갖는 확률변수입니다. 	
 
-##  Binomial distribution
+  Binomial distribution
 
 베르누이 분포가 0과 1값만을 갖는 확률변수에 대한 분포였다면, Binomial 분포는 베르누이 분포를 따르는 시행을 n번, 서로 독립적으로 시행했을 때의 확률분포를 설명하는 함수입니다.
 
@@ -49,7 +49,7 @@ n번의 독립적인 베르누이 시행(성공 확률 $$p$$)을 행했을 때 �
 
 $$X\sim Bin(n,p)$$일 때 $$X$$의 PMF는 $$P(X=k)=\begin{pmatrix}n\\k\end{pmatrix}p^k(1-p)^{n-k}$$로 계산할 수 있습니다. 성공 확률이 $$p$$인 시행이 k번 성공하고, 총 n번의 시행 중에 이 k개의 성공시행을 분배하는 식으로 이해하면 이해가 쉽습니다.
 
-### Hypergeometric distribution
+ Hypergeometric distribution
 
 Hypergeometric 분포는 생소한 이름인데요, 성공과 실패의 횟수가 한정되어 있고, replacement가 없는 상황에서 (예 : 제비를 뽑은 뒤 다시 집어넣지 않는 제비뽑기) n번의 시행에 대해 성공 시행의 수가 따르는 분포입니다.
 
