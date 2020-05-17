@@ -1,7 +1,7 @@
 ---
 layout: list
 title: CV
-slug: notice
+slug: cv
 menu: true
 submenu: false
 order: 4
