@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Notice
+title: CV
 slug: notice
 menu: true
 submenu: false
 order: 4
 description: >
-  블로그 운영과 관련된 사항입니다.
+  20년 5월 기준 이력사항 입니다.
 ---
