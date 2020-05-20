@@ -5,7 +5,7 @@ menu: true
 order: 3
 ---
 
-## 소개
+## Introduce
 
 안녕하세요, 문형돈입니다.<br>
 현재 AGI(Artificial General Intelligence)를 위한 인지모델링을 연구중이며 모델을 보완하기 위해 AI와 관련된 다방면의 공부를 하고 있습니다.<br>
